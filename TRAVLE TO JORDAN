@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel to Jordan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f6f1e9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #b14a3f;
+      color: white;
+      padding: 1rem 2rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe4c4;
+    }
+
+    section {
+      padding: 100px 20px 60px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #b14a3f;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 15px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #b14a3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    .subtext {
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    .testimonial {
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Travel to Jordan</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#attractions">Attractions</a>
+    <a href="#cuisine">Cuisine</a>
+    <a href="#culture">Culture</a>
+    <a href="#stay">Stay</a>
+    <a href="#itinerary">Itineraries</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#products">Products</a>
+    <a href="#final">Final</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome to Jordan</h2>
+  <p class="subtext">Jordan is a hidden gem of the Middle East that combines ancient history, rich culture, and breathtaking natural landscapes. From the golden deserts of Wadi Rum to the healing waters of the Dead Sea, from the rose-red city of Petra to the warm hospitality of its people, Jordan offers an unforgettable experience like no other.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Al_Khazneh_Petra_edit_2_%28cropped%29.jpg" alt="Petra">
+</section>
+
+<section id="attractions">
+  <h2>Top Attractions</h2>
+  <ul>
+    <li><strong>Petra:</strong> Discover the rose-red city carved by the Nabataeans.</li>
+    <li><strong>Wadi Rum:</strong> A dramatic desert landscape perfect for adventures.</li>
+    <li><strong>The Dead Sea:</strong> Float in the Earth’s lowest point.</li>
+    <li><strong>Amman:</strong> A capital blending old and new.</li>
+  </ul>
+</section>
+
+<section id="cuisine">
+  <h2>Jordanian Cuisine</h2>
+  <ul>
+    <li><strong>Mansaf:</strong> The national dish of Jordan.</li>
+    <li><strong>Maqluba:</strong> A flipped rice and meat dish.</li>
+    <li><strong>Knafeh:</strong> A sweet, syrupy dessert with cheese.</li>
+    <li><strong>Hummus & Falafel:</strong> Street food staples.</li>
+  </ul>
+</section>
+
+<section id="culture">
+  <h2>Culture & Traditions</h2>
+  <ul>
+    <li><strong>Hospitality:</strong> Guests are always welcomed with open hearts.</li>
+    <li><strong>Dress:</strong> Traditional attire and keffiyeh.</li>
+    <li><strong>Dabke:</strong> A traditional dance of joy.</li>
+    <li><strong>Festivals:</strong> Jerash Festival and more.</li>
+  </ul>
+</section>
+
+<section id="stay">
+  <h2>Where to Stay</h2>
+  <ul>
+    <li><strong>Luxury Hotels:</strong> 5-star stays in Amman, Dead Sea, Aqaba.</li>
+    <li><strong>Bedouin Camps:</strong> Authentic desert experience in Wadi Rum.</li>
+    <li><strong>Guesthouses:</strong> Family-run stays in rural villages.</li>
+  </ul>
+</section>
+
+<section id="itinerary">
+  <h2>Suggested Itineraries</h2>
+  <ul>
+    <li><strong>3-Day Adventure:</strong> Petra & Wadi Rum</li>
+    <li><strong>1-Week Northern Discovery:</strong> Jerash to Dead Sea</li>
+    <li><strong>Religious Trail:</strong> Baptism Site, Mount Nebo, Madaba</li>
+  </ul>
+</section>
+
+<section id="testimonials">
+  <h2>Visitor Testimonials</h2>
+  <p class="testimonial">"I felt like family everywhere I went. Every moment in Jordan was full of kindness and beauty." — Eliza, Germany</p>
+  <p class="testimonial">"The best trip I’ve ever taken. Petra is stunning, and Wadi Rum feels like another planet!" — Nicolas, Canada</p>
+</section>
+
+<section id="products">
+  <h2>Jordanian Products</h2>
+  <ul>
+    <li>Traditional thyme (za'atar)</li>
+    <li>Olive oil soap from Nablus</li>
+    <li>Handmade embroidery and crafts</li>
+    <li>Mini Petra sculptures and pottery</li>
+  </ul>
+</section>
+
+<section id="final">
+  <h2>The Journey Begins</h2>
+  <p class="subtext">In a land where the sun carves its name on the mountains, where the sands whisper ancient secrets, where history breathes, and hearts open wide like the desert... Jordan is not just visited — It’s lived, loved, and etched into memory.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Discover Jordan. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
